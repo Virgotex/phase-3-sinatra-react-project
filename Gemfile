@@ -43,6 +43,11 @@ group :development do
   gem "rerun"
 end
 
+gem 'faker'
+
+gem 'bcrypt', '~> 3.1.16'
+
+
 # These gems will only be used when we are running tests
 group :test do
   gem "database_cleaner", "~> 2.0"
